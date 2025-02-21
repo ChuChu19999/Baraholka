@@ -1,0 +1,302 @@
+[
+  {
+    "model": "baraholka.category",
+    "pk": 1,
+    "fields": {
+      "name": "Транспорт",
+      "description": "Автомобили, мотоциклы и другие транспортные средства",
+      "parent": null,
+      "slug": "transport"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 2,
+    "fields": {
+      "name": "Легковые автомобили",
+      "description": "Легковые автомобили всех марок",
+      "parent": 1,
+      "slug": "cars"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 3,
+    "fields": {
+      "name": "Мотоциклы",
+      "description": "Мотоциклы, скутеры и мопеды",
+      "parent": 1,
+      "slug": "motorcycles"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 4,
+    "fields": {
+      "name": "Запчасти и аксессуары",
+      "description": "Запчасти, комплектующие и аксессуары для транспорта",
+      "parent": 1,
+      "slug": "auto-parts"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 5,
+    "fields": {
+      "name": "Недвижимость",
+      "description": "Квартиры, дома, участки и коммерческая недвижимость",
+      "parent": null,
+      "slug": "real-estate"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 6,
+    "fields": {
+      "name": "Квартиры",
+      "description": "Продажа квартир",
+      "parent": 5,
+      "slug": "apartments"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 7,
+    "fields": {
+      "name": "Дома и дачи",
+      "description": "Частные дома, дачи и коттеджи",
+      "parent": 5,
+      "slug": "houses"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 8,
+    "fields": {
+      "name": "Электроника",
+      "description": "Компьютеры, телефоны, бытовая техника",
+      "parent": null,
+      "slug": "electronics"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 9,
+    "fields": {
+      "name": "Телефоны",
+      "description": "Мобильные телефоны и смартфоны",
+      "parent": 8,
+      "slug": "phones"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 10,
+    "fields": {
+      "name": "Ноутбуки",
+      "description": "Ноутбуки и аксессуары",
+      "parent": 8,
+      "slug": "laptops"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 11,
+    "fields": {
+      "name": "Бытовая техника",
+      "description": "Крупная и мелкая бытовая техника",
+      "parent": 8,
+      "slug": "appliances"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 12,
+    "fields": {
+      "name": "Одежда и обувь",
+      "description": "Мужская и женская одежда, обувь, аксессуары",
+      "parent": null,
+      "slug": "clothing-shoes"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 13,
+    "fields": {
+      "name": "Мужская одежда",
+      "description": "Мужская одежда всех типов",
+      "parent": 12,
+      "slug": "mens-clothing"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 14,
+    "fields": {
+      "name": "Женская одежда",
+      "description": "Женская одежда всех типов",
+      "parent": 12,
+      "slug": "womens-clothing"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 15,
+    "fields": {
+      "name": "Детские товары",
+      "description": "Товары для детей и подростков",
+      "parent": null,
+      "slug": "children"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 16,
+    "fields": {
+      "name": "Игрушки",
+      "description": "Детские игрушки и игры",
+      "parent": 15,
+      "slug": "toys"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 17,
+    "fields": {
+      "name": "Детская одежда",
+      "description": "Одежда для детей всех возрастов",
+      "parent": 15,
+      "slug": "children-clothing"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 18,
+    "fields": {
+      "name": "Мебель и интерьер",
+      "description": "Мебель, предметы интерьера и декора",
+      "parent": null,
+      "slug": "furniture-interior"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 19,
+    "fields": {
+      "name": "Мебель для дома",
+      "description": "Мебель для всех комнат",
+      "parent": 18,
+      "slug": "home-furniture"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 20,
+    "fields": {
+      "name": "Предметы интерьера",
+      "description": "Декор, текстиль, освещение",
+      "parent": 18,
+      "slug": "interior-items"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 21,
+    "fields": {
+      "name": "Хобби и отдых",
+      "description": "Спорт, коллекционирование, музыка",
+      "parent": null,
+      "slug": "hobby-leisure"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 22,
+    "fields": {
+      "name": "Спортивные товары",
+      "description": "Спортивный инвентарь и экипировка",
+      "parent": 21,
+      "slug": "sports"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 23,
+    "fields": {
+      "name": "Книги и журналы",
+      "description": "Печатные издания всех жанров",
+      "parent": 21,
+      "slug": "books"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 24,
+    "fields": {
+      "name": "Музыкальные инструменты",
+      "description": "Музыкальные инструменты и оборудование",
+      "parent": 21,
+      "slug": "musical-instruments"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 25,
+    "fields": {
+      "name": "Животные",
+      "description": "Домашние животные и товары для них",
+      "parent": null,
+      "slug": "animals"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 26,
+    "fields": {
+      "name": "Собаки",
+      "description": "Собаки и щенки",
+      "parent": 25,
+      "slug": "dogs"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 27,
+    "fields": {
+      "name": "Кошки",
+      "description": "Кошки и котята",
+      "parent": 25,
+      "slug": "cats"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 28,
+    "fields": {
+      "name": "Товары для животных",
+      "description": "Корма, аксессуары и средства ухода",
+      "parent": 25,
+      "slug": "pet-supplies"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 29,
+    "fields": {
+      "name": "Бизнес и оборудование",
+      "description": "Оборудование для бизнеса и производства",
+      "parent": null,
+      "slug": "business"
+    }
+  },
+  {
+    "model": "baraholka.category",
+    "pk": 30,
+    "fields": {
+      "name": "Готовый бизнес",
+      "description": "Продажа готового бизнеса",
+      "parent": 29,
+      "slug": "ready-business"
+    }
+  }
+] 
